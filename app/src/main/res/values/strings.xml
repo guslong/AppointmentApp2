@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Appointment App</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="create_appointment_lbl">Create Appointment</string>
+    <string name="title_lbl">Title</string>
+    <string name="location_lbl">Location</string>
+</resources>
