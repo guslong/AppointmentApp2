@@ -3,8 +3,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
->
+    android:weightSum="1"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_create"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,19 +40,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText2" />
 
-    <DatePicker
-        android:layout_width="300dp"
-        android:layout_height="216dp"
-        android:id="@+id/datePicker"
-        android:layout_gravity="center_horizontal" />
-
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All day event"
+        android:text="@string/lbl_alldaycheck"
         android:id="@+id/checkBox"
         android:checked="false"
+        android:layout_gravity="right" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
         android:layout_gravity="center_horizontal"
-/>
+        android:calendarViewShown="false" />
 
 </LinearLayout>

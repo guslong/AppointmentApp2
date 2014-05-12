@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 
 import net.guslong.myapplication4.app.R;
 
+
 /**
  * Created by anguslong on 11/05/14.
  */
@@ -31,7 +32,7 @@ public class EntryPoint extends Activity {
         fm.beginTransaction().add(R.id.fragmentContainer2, timePickerFragment).commit();
 
         // initialise the timePickerFragment to visible
-        updateFragmentVisibility(true);
+        updateFragmentVisibility(false);
     }
 
     /**

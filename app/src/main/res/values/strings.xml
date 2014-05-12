@@ -7,4 +7,6 @@
     <string name="create_appointment_lbl">Create Appointment</string>
     <string name="title_lbl">Title</string>
     <string name="location_lbl">Location</string>
+    <string name="lbl_create">Create Appointment</string>
+    <string name="lbl_alldaycheck">All day event</string>
 </resources>
